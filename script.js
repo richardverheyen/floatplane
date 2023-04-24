@@ -35,11 +35,12 @@ camera.position.set(0, 0, -1);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableZoom = true;
 controls.enablePan = false;
-controls.minPolarAngle = 1.2
-controls.maxPolarAngle = 2.2;
+controls.minPolarAngle = 1.6
+controls.maxPolarAngle = 2.0;
 controls.minAzimuthAngle = Math.PI / 1.8
 controls.maxAzimuthAngle = Math.PI / 1.8;
 controls.enableDamping = true;
+controls.dampingFactor = 0.2;
 
 controls.rotateSpeed = 0.1;
 
