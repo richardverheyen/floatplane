@@ -1,0 +1,23 @@
+.overlay {
+  position: absolute;
+  bottom: 1em;
+  padding: 3em;
+  pointer-events: none;
+  color: white;
+}
+.overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.overlay p {
+  font-family: "Poppins";
+  font-size: 0.9rem;
+  margin: 0;
+  width: 50%;
+}
+
+.inner {
+  position: relative;
+  z-index: 10;
+  pointer-events: none;
+}/*# sourceMappingURL=main.css.map */
