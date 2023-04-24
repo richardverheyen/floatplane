@@ -41,9 +41,7 @@ controls.minAzimuthAngle = Math.PI / 1.8
 controls.maxAzimuthAngle = Math.PI / 1.8;
 controls.enableDamping = true;
 controls.dampingFactor = 0.2;
-controls.screenSpacePanning = false;
-
-controls.rotateSpeed = 0.1;
+controls.rotateSpeed = -0.1;
 
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
