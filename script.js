@@ -39,6 +39,7 @@ controls.minPolarAngle = 1.2
 controls.maxPolarAngle = 2.2;
 controls.minAzimuthAngle = Math.PI / 1.8
 controls.maxAzimuthAngle = Math.PI / 1.8;
+controls.enableDamping = true;
 
 controls.rotateSpeed = 0.1;
 
@@ -74,6 +75,12 @@ function animate() {
 
 animate();
 
+if (document.webkitFullscreenElement) {
+    document.webkitCancelFullScreen();
+  } else {
+    const el = document.documentElement;
+    el.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+  }
 
 
 
