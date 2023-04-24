@@ -40,7 +40,7 @@ controls.maxPolarAngle = 2.0;
 controls.minAzimuthAngle = Math.PI / 1.8
 controls.maxAzimuthAngle = Math.PI / 1.8;
 controls.enableDamping = true;
-controls.dampingFactor = 0.01;
+controls.dampingFactor = 0.2;
 
 controls.rotateSpeed = 0.1;
 
